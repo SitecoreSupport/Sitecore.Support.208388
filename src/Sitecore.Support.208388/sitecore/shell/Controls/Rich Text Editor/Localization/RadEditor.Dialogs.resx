@@ -112,19 +112,19 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About_Copyright" xml:space="preserve">
-    <value>Copyright 2002-2010 ©Telerik  All rights reserved.</value>
+    <value>Copyright 2002-2017 ©Telerik  All rights reserved.</value>
   </data>
   <data name="About_Title" xml:space="preserve">
     <value>RadEditor by Telerik</value>
   </data>
   <data name="Common_AddCustomTarget" xml:space="preserve">
-    <value>[add custom target...]</value>
+    <value>Add Custom Target...</value>
   </data>
   <data name="Common_AllowedExtensions" xml:space="preserve">
     <value>File extensions allowed</value>
@@ -133,7 +133,7 @@
     <value>Back</value>
   </data>
   <data name="Common_BackgroundColor" xml:space="preserve">
-    <value>Background Color</value>
+    <value>Back Color</value>
   </data>
   <data name="Common_BackgroundImage" xml:space="preserve">
     <value>Back Image</value>
@@ -310,6 +310,9 @@ Press "OK" to confirm deletion.</value>
   </data>
   <data name="Common_PasteHtmlMessage" xml:space="preserve">
     <value>Please, insert the Html content, which you want to paste</value>
+  </data>
+  <data name="Common_PasteMarkdownMessage" xml:space="preserve">
+    <value>Please, insert the Markdown content, which you want to paste</value>
   </data>
   <data name="Common_Percent" xml:space="preserve">
     <value>Percent</value>
@@ -611,12 +614,6 @@ Press "OK" to confirm deletion.</value>
   <data name="ImageEditor_Crop" xml:space="preserve">
     <value>Crop</value>
   </data>
-  <data name="ImageEditor_DisableCrop" xml:space="preserve">
-    <value>Disable Crop</value>
-  </data>
-  <data name="ImageEditor_EnableCrop" xml:space="preserve">
-    <value>Enable Crop</value>
-  </data>
   <data name="ImageEditor_Flip" xml:space="preserve">
     <value>Flip</value>
   </data>
@@ -635,7 +632,7 @@ Press "OK" to confirm deletion.</value>
   <data name="ImageEditor_Resize" xml:space="preserve">
     <value>Resize</value>
   </data>
-  <data name="ImageEditor_RestoreImage" xml:space="preserve">
+  <data name="ImageEditor_Reset" xml:space="preserve">
     <value>Restore Image</value>
   </data>
   <data name="ImageEditor_Rotate" xml:space="preserve">
@@ -647,7 +644,7 @@ Press "OK" to confirm deletion.</value>
   <data name="ImageEditor_SaveAs" xml:space="preserve">
     <value>Save As...</value>
   </data>
-  <data name="ImageManager_ActualSize" xml:space="preserve">
+  <data name="Common_ActualSize" xml:space="preserve">
     <value>Actual Size</value>
   </data>
   <data name="ImageManager_AlertDimensions" xml:space="preserve">
@@ -659,16 +656,16 @@ Press "OK" to confirm deletion.</value>
   <data name="ImageManager_AlertWidth" xml:space="preserve">
     <value>Please, provide valid image width.</value>
   </data>
-  <data name="ImageManager_BestFit" xml:space="preserve">
+  <data name="Common_BestFit" xml:space="preserve">
     <value>Best Fit</value>
   </data>
   <data name="ImageManager_Title" xml:space="preserve">
     <value>Image Manager</value>
   </data>
-  <data name="ImageManager_ZoomIn" xml:space="preserve">
+  <data name="Common_ZoomIn" xml:space="preserve">
     <value>Zoom In</value>
   </data>
-  <data name="ImageManager_ZoomOut" xml:space="preserve">
+  <data name="Common_ZoomOut" xml:space="preserve">
     <value>Zoom Out</value>
   </data>
   <data name="ImageMap_AlertDeleteAllAreas" xml:space="preserve">
@@ -1149,7 +1146,7 @@ Press "OK" to confirm deletion.</value>
     <value>Image Alignment</value>
   </data>
   <data name="SetImageProperties_ImageSrc" xml:space="preserve">
-    <value>Image Src</value>
+    <value>Choose Image</value>
   </data>
   <data name="SetImageProperties_LongDescription" xml:space="preserve">
     <value>Long Description</value>
@@ -1251,10 +1248,10 @@ Press "OK" to confirm deletion.</value>
     <value>Frame</value>
   </data>
   <data name="TableWizard_HeadingColumns" xml:space="preserve">
-    <value>Heading columns</value>
+    <value>Heading Columns</value>
   </data>
   <data name="TableWizard_HeadingRows" xml:space="preserve">
-    <value>Heading rows</value>
+    <value>Heading Rows</value>
   </data>
   <data name="TableWizard_HeadingsLabel" xml:space="preserve">
     <value>Headings</value>
@@ -1329,13 +1326,13 @@ Press "OK" to confirm deletion.</value>
     <value>Summary</value>
   </data>
   <data name="TableWizard_Tab1HeaderText" xml:space="preserve">
-    <value>Table Design</value>
-  </data>
-  <data name="TableWizard_Tab2HeaderText" xml:space="preserve">
     <value>Table Properties</value>
   </data>
-  <data name="TableWizard_Tab3HeaderText" xml:space="preserve">
+  <data name="TableWizard_Tab2HeaderText" xml:space="preserve">
     <value>Cell Properties</value>
+  </data>
+  <data name="TableWizard_Tab3HeaderText" xml:space="preserve">
+    <value>Table Layouts</value>
   </data>
   <data name="TableWizard_Tab4HeaderText" xml:space="preserve">
     <value>Accessibility</value>
@@ -1455,7 +1452,7 @@ Press "OK" to confirm deletion.</value>
     <value>Click here to sort</value>
   </data>
   <data name="TableWizard_SelectAll" xml:space="preserve">
-    <value>Select All</value>
+    <value>Select All Cells</value>
   </data>
   <data name="Common_Margin" xml:space="preserve">
     <value>Margin</value>
@@ -1652,6 +1649,9 @@ Press "OK" to confirm deletion.</value>
   <data name="StyleBuilder_Display" xml:space="preserve">
     <value>Display</value>
   </data>
+  <data name="StyleBuilder_Dimensions" xml:space="preserve">
+    <value>Dimensions</value>
+  </data>
   <data name="StyleBuilder_DoNotAllow" xml:space="preserve">
     <value>Do not allow</value>
   </data>
@@ -1798,5 +1798,377 @@ Press "OK" to confirm deletion.</value>
   </data>
   <data name="StyleBuilder_Visible" xml:space="preserve">
     <value>Visible</value>
+  </data>
+  <data name="StyleBuilder_Words" xml:space="preserve">
+    <value>Words</value>
+  </data>
+  <data name="ImageEditor_AddText" xml:space="preserve">
+    <value>Add Text</value>
+  </data>
+  <data name="ImageEditor_Print" xml:space="preserve">
+    <value>Print Image</value>
+  </data>
+  <data name="ImageEditor_Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="ImageEditor_RotateLeft" xml:space="preserve">
+    <value>Rotate Left by 90 degrees</value>
+  </data>
+  <data name="ImageEditor_RotateRight" xml:space="preserve">
+    <value>Rotate Right by 90 degrees</value>
+  </data>
+  <data name="ImageEditor_Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="ImageEditor_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="ImageEditor_AddText_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ImageEditor_AddText_ColorToolTip" xml:space="preserve">
+    <value>The color of the text to add</value>
+  </data>
+  <data name="ImageEditor_AddText_CurrentColorText" xml:space="preserve">
+    <value>(Current Color is {0})</value>
+  </data>
+  <data name="ImageEditor_AddText_FontFamily" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+  <data name="ImageEditor_AddText_FontFamilyToolTip" xml:space="preserve">
+    <value>The font family of the text to add</value>
+  </data>
+  <data name="ImageEditor_AddText_FontSize" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="ImageEditor_AddText_FontSizeToolTip" xml:space="preserve">
+    <value>The size of the text to add</value>
+  </data>
+  <data name="ImageEditor_AddText_PickColorToolTip" xml:space="preserve">
+    <value>Pick Color</value>
+  </data>
+  <data name="ImageEditor_AddText_SampleText" xml:space="preserve">
+    <value>Your text here...</value>
+  </data>
+  <data name="ImageEditor_AddText_Title" xml:space="preserve">
+    <value>Insert Text</value>
+  </data>
+  <data name="ImageEditor_Common_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ImageEditor_Common_SliderDrag" xml:space="preserve">
+    <value>Drag to change the value</value>
+  </data>
+  <data name="ImageEditor_Common_SwapWidthHeight" xml:space="preserve">
+    <value>Swap Width and Height</value>
+  </data>
+  <data name="ImageEditor_Common_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="ImageEditor_Common_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="ImageEditor_Crop_AspectRatio" xml:space="preserve">
+    <value>Aspect Ratio</value>
+  </data>
+  <data name="ImageEditor_Crop_AspectRatioToolTip" xml:space="preserve">
+    <value>Select Aspect Ratio</value>
+  </data>
+  <data name="ImageEditor_Crop_Button" xml:space="preserve">
+    <value>Crop</value>
+  </data>
+  <data name="ImageEditor_Crop_Title" xml:space="preserve">
+    <value>Crop Image</value>
+  </data>
+  <data name="ImageEditor_Flip_None" xml:space="preserve">
+    <value>Flip None</value>
+  </data>
+  <data name="ImageEditor_Flip_Title" xml:space="preserve">
+    <value>Flip</value>
+  </data>
+  <data name="ImageEditor_Opacity_TextboxToolTip" xml:space="preserve">
+    <value>Enter a value between 0 and 100%</value>
+  </data>
+  <data name="ImageEditor_Opacity_Title" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="ImageEditor_Print_Button" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ImageEditor_Print_Title" xml:space="preserve">
+    <value>Print Image</value>
+  </data>
+  <data name="ImageEditor_Resize_Button" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="ImageEditor_Resize_Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="ImageEditor_Resize_PercentageToolTip" xml:space="preserve">
+    <value>Percentage of original Width x Height [0,100%]</value>
+  </data>
+  <data name="ImageEditor_Resize_PresetSizes" xml:space="preserve">
+    <value>Preset Sizes</value>
+  </data>
+  <data name="ImageEditor_Resize_PresetSizesToolTip" xml:space="preserve">
+    <value>Select Preset Width x Height</value>
+  </data>
+  <data name="ImageEditor_Resize_Title" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="ImageEditor_Rotate_DropDownToolTip" xml:space="preserve">
+    <value>Select a rotation angle</value>
+  </data>
+  <data name="ImageEditor_Rotate_Title" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="ImageEditor_Save_ClientRadioText" xml:space="preserve">
+    <value>Download Image</value>
+  </data>
+  <data name="ImageEditor_Save_FileNameLabel" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="ImageEditor_Save_FileNameToolTip" xml:space="preserve">
+    <value>Enter File Name</value>
+  </data>
+  <data name="ImageEditor_Save_ServerRadioText" xml:space="preserve">
+    <value>Save Image on Server</value>
+  </data>
+  <data name="ImageEditor_Save_Title" xml:space="preserve">
+    <value>Save Image</value>
+  </data>
+  <data name="ImageEditor_StatusBar_LastAction" xml:space="preserve">
+    <value>Last Action</value>
+  </data>
+  <data name="ImageEditor_StatusBar_Position" xml:space="preserve">
+    <value>Pos.</value>
+  </data>
+  <data name="ImageEditor_StatusBar_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="ImageEditor_StatusBar_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="ImageEditor_Zoom_ActualSizeToolTip" xml:space="preserve">
+    <value>Zoom to 100%</value>
+  </data>
+  <data name="ImageEditor_Zoom_BestFitToolTip" xml:space="preserve">
+    <value>Fit image in editable area</value>
+  </data>
+  <data name="ImageEditor_Zoom_TextboxToolTip" xml:space="preserve">
+    <value>Enter a value between 0 and 100%</value>
+  </data>
+  <data name="ImageEditor_Zoom_Title" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="ImageEditor_InsertImage_Title" xml:space="preserve">
+    <value>Insert Image</value>
+  </data>
+  <data name="Common_Set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="InsertExternalVideo_AdvancedMode" xml:space="preserve">
+    <value>Advanced Mode</value>
+  </data>
+  <data name="InsertExternalVideo_AspectRatio" xml:space="preserve">
+    <value>Aspect ratio</value>
+  </data>
+  <data name="InsertExternalVideo_AutoplaySetting" xml:space="preserve">
+    <value>Play the video automatically on load</value>
+  </data>
+  <data name="InsertExternalVideo_EmbedCode" xml:space="preserve">
+    <value>Embed code</value>
+  </data>
+  <data name="InsertExternalVideo_EmbedVideoSettings" xml:space="preserve">
+    <value>Embed video settings</value>
+  </data>
+  <data name="InsertExternalVideo_FullscreenSetting" xml:space="preserve">
+    <value>Enable fullscreen button</value>
+  </data>
+  <data name="InsertExternalVideo_PasteVideoURL" xml:space="preserve">
+    <value>Paste Youtube or Vimeo video URL</value>
+  </data>
+  <data name="InsertExternalVideo_PrivacySetting" xml:space="preserve">
+    <value>Enable privacy-enhanced mode</value>
+  </data>
+  <data name="InsertExternalVideo_ShowTitleSetting" xml:space="preserve">
+    <value>Display title before video starts playing</value>
+  </data>
+  <data name="Common_NonExistingFolder" xml:space="preserve">
+    <value>You are trying to navigate to a non-existing folder or you do not have proper permissions to view this folder. Please, contact the administrator.</value>
+  </data>
+  <data name="Common_GridView" xml:space="preserve">
+    <value>Grid View</value>
+  </data>
+  <data name="Common_ThumbnailsView" xml:space="preserve">
+    <value>Thumbnails View</value>
+  </data>
+  <data name="InsertExternalVideo_ToggleAdvancedModeEmbedCode" xml:space="preserve">
+    <value>Toggle advanced mode embed code</value>
+  </data>
+  <data name="ImageEditor_Common_FileExists" xml:space="preserve">
+    <value>A file with a name same as the target already exists!</value>
+  </data>
+  <data name="Common_ImageTitleText" xml:space="preserve">
+    <value>Title Text</value>
+  </data>
+  <data name="ImageMap_Title" xml:space="preserve">
+    <value>Title Text</value>
+  </data>
+  <data name="InsertSelectDialog_ManageOptions" xml:space="preserve">
+    <value>Add/Remove Options</value>
+  </data>
+  <data name="InsertSelectDialog_Multiple" xml:space="preserve">
+    <value>Multiple</value>
+  </data>
+  <data name="InsertSelectDialog_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="InsertSelectDialog_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="InsertSelectDialog_PixelsOrPercents" xml:space="preserve">
+    <value>pixels, %</value>
+  </data>
+  <data name="InsertSelectDialog_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="InsertSelectDialog_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="InsertSelectDialog_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="InsertSelectDialog_AddOption" xml:space="preserve">
+    <value>Add Option</value>
+  </data>
+  <data name="InsertSelectDialog_RemoveOption" xml:space="preserve">
+    <value>Remove Option</value>
+  </data>
+  <data name="ImageEditor_OpacityNotSupported" xml:space="preserve">
+    <value>The current image format does not support opacity.</value>
+  </data>
+  <data name="Common_FileListSummary" xml:space="preserve">
+    <value>Table that lists the contents of the current directory</value>
+  </data>
+  <data name="LinkManager_AnchorId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="LinkManager_EmailId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="LinkManager_EmailTooltip" xml:space="preserve">
+    <value>Tooltip</value>
+  </data>
+  <data name="LinkManager_LinkId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="LinkManager_GenerateId" xml:space="preserve">
+    <value>Generate ID</value>
+  </data>
+  <data name="Common_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="FindReplaceSettings_Find" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="FindReplaceSettings_FindAndReplace" xml:space="preserve">
+    <value>Find and Replace</value>
+  </data>
+  <data name="FindReplaceSettings_MatchCase" xml:space="preserve">
+    <value>Match case</value>
+  </data>
+  <data name="InsertTable_CellPadding" xml:space="preserve">
+    <value>Cell Padding</value>
+  </data>
+  <data name="InsertTable_CellSpacing" xml:space="preserve">
+    <value>Cell Spacing</value>
+  </data>
+  <data name="InsertTable_Columns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="InsertTable_Rows" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="MobileLinkManager_LinkTarget" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="MobileLinkManager_LinkText" xml:space="preserve">
+    <value>Link Text</value>
+  </data>
+  <data name="MobileLinkManager_RemoveLink" xml:space="preserve">
+    <value>Remove Link</value>
+  </data>
+  <data name="MobileLinkManager_Url" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="MobileTableProperties_CellPadding" xml:space="preserve">
+    <value>Cell Padding</value>
+  </data>
+  <data name="MobileTableProperties_CellSpacing" xml:space="preserve">
+    <value>Cell Spacing</value>
+  </data>
+  <data name="MobileImageProperties_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Common_BorderStyle" xml:space="preserve">
+    <value>Border Style</value>
+  </data>
+  <data name="Common_NoStyle" xml:space="preserve">
+    <value>No Style</value>
+  </data>
+  <data name="SizeMargins_Title" xml:space="preserve">
+    <value>Size and Margins</value>
+  </data>
+  <data name="InsertTable_Title" xml:space="preserve">
+    <value>Insert Table</value>
+  </data>
+  <data name="MobileTableProperties_Title" xml:space="preserve">
+    <value>Table Properties</value>
+  </data>
+  <data name="MobileLinkManager_Title" xml:space="preserve">
+    <value>Insert Link</value>
+  </data>
+  <data name="MobileImageProperties_Title" xml:space="preserve">
+    <value>Image Properties</value>
+  </data>
+  <data name="Border_title" xml:space="preserve">
+    <value>Border</value>
+  </data>
+  <data name="FindReplaceSettings_Title" xml:space="preserve">
+    <value>Find and Replace</value>
+  </data>
+  <data name="StyleBuilder_BoxTab" xml:space="preserve">
+    <value>Box</value>
+  </data>
+  <data name="Common_or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="Common_Transparent" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="StyleBuilder_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="StyleBuilder_Float" xml:space="preserve">
+    <value>Float</value>
+  </data>
+  <data name="TableWizard_ApplyTo" xml:space="preserve">
+    <value>Apply To</value>
+  </data>
+  <data name="TableWizard_MoreCellStyling" xml:space="preserve">
+    <value>More Cell Styling...</value>
+  </data>
+  <data name="TableWizard_MoreTableStyling" xml:space="preserve">
+    <value>More Table Styling...</value>
+  </data>
+  <data name="TableWizard_NoTableStyleSelected" xml:space="preserve">
+    <value>No Table Style Selected</value>
+  </data>
+  <data name="TableWizard_SelectTableStyle" xml:space="preserve">
+    <value>Select Table Style</value>
+  </data>
+  <data name="Common_AlignmentSelector" xml:space="preserve">
+    <value>Alignment selector</value>
   </data>
 </root>
