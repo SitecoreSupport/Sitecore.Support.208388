@@ -60,7 +60,9 @@
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="sitecore\shell\Controls\Rich Text Editor\Localization\RadEditor.Dialogs.resx" />
+    <EmbeddedResource Include="sitecore\shell\Controls\Rich Text Editor\Localization\RadEditor.Dialogs.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
